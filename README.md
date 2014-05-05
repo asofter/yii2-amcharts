@@ -22,7 +22,7 @@ Usage
 Put in your view:
 
 ```php
-use yii2amcharts\AmChart;
+use yii\amcharts\Widget;
 
 $chartConfiguration = [
     'type'         => 'serial',
