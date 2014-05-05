@@ -22,8 +22,6 @@ Usage
 Put in your view:
 
 ```php
-use yii\amcharts\Widget;
-
 $chartConfiguration = [
     'type'         => 'serial',
     'dataProvider' => [['year'  => 2005, 'income' => 23.5],
@@ -44,7 +42,7 @@ $chartConfiguration = [
 	                   'balloonText' => '[[title]] in [[category]]:<b>[[value]]</b>'
                      ]]
 ];
-echo AmChart::widget(['chartConfiguration' => $chartConfiguration]);
+echo yii\amcharts\Widget::widget(['chartConfiguration' => $chartConfiguration]);
 ```
 
 Another example
@@ -90,5 +88,5 @@ $chartConfiguration = [
         'chartCursor' => [],
         'chartScrollbar' => []
 ];
-echo AmChart::widget(['chartConfiguration' => $chartConfiguration]);
+echo yii\amcharts\Widget::widget(['chartConfiguration' => $chartConfiguration]);
 ```

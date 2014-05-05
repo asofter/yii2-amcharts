@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class AmChartAsset extends AssetBundle
 {
-    public $sourcePath = '@yii2amcharts/assets';
+    public $sourcePath = '@yii/amcharts/assets';
     public $css = [];
     public $js = [
         'js/amcharts.js',
